@@ -1,0 +1,12 @@
+.home {
+  &__container {
+    &__1 {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+    }
+    &__2 {
+      margin-top: 50px;
+    }
+  }
+}

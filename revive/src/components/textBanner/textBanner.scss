@@ -1,0 +1,17 @@
+.text-banner {
+  display: flex;
+  background-image: url("../../assets/images/banner1.svg");
+  //   width: 100vw;
+  // line-height: 25px;
+
+  &__wrapper {
+    padding: 50px;
+    display: flex;
+    gap: 10px;
+    // line-height: 25px;
+
+    @media screen and (max-width: 768px) {
+      padding: 40px 30px;
+    }
+  }
+}

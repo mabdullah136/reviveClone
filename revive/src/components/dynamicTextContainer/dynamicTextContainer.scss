@@ -1,0 +1,23 @@
+.dynamic-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: $poppins-font;
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    &__container {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+  }
+  &__separator {
+    border: 0px;
+    width: 99px;
+    height: 3px;
+    background-color: #f7941e;
+  }
+}
