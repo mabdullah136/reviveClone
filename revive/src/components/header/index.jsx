@@ -27,6 +27,11 @@ function Header() {
                 </a>
               </li>
               <li className="nav-item">
+                <a className="nav-link" href="/textileWipers">
+                  Textile Wiper
+                </a>
+              </li>
+              <li className="nav-item">
                 <a className="nav-link" href="/sustainability">
                   Sustainability
                 </a>
