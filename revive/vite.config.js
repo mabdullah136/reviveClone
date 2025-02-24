@@ -17,5 +17,8 @@ export default defineConfig({
       },
     },
   },
-  base: "./", // Ensure correct base path for Vercel
+  base: "/",
+  server: {
+    historyApiFallback: true, // Ensures SPA routing works
+  },
 });
