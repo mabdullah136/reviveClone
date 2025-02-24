@@ -9,6 +9,7 @@ import Sustainability from "./pages/customerPages/sustainability/index.jsx";
 import SocialResponsibilityPage from "./pages/customerPages/socialResponsibilityPage/index.jsx";
 import Fibers from "./pages/customerPages/fibers/index.jsx";
 import Fabric from "./pages/customerPages/fabric/index.jsx";
+import ContactUs from "./pages/customerPages/contactUs/index.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -24,6 +25,7 @@ createRoot(document.getElementById("root")).render(
         />
         <Route path="/fibers" element={<Fibers />} />
         <Route path="/fabric" element={<Fabric />} />
+        <Route path="/contactUs" element={<ContactUs />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>
