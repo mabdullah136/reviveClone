@@ -13,7 +13,7 @@ import color from "./images/color.png";
 import colorTriangle from "./images/colorTriangle.png";
 import layer91 from "./images/Layer_9_1.png";
 import layer101 from "./images/Layer_10_1.png";
-import bullets from "./images/frame.svg";
+import bullets from "./images/Frame.svg";
 import rectangle231 from "./images/Rectangle_23_1.png";
 import rectangle from "./images/Rectangle.png";
 import layer162 from "./images/Layer_16_2.png";
