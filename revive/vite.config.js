@@ -1,8 +1,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-import path, { resolve } from "path";
+import { resolve } from "path";
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
   resolve: {
@@ -17,8 +16,11 @@ export default defineConfig({
       },
     },
   },
-  base: "/",
+  base: "/", // Ensure correct base URL
+  build: {
+    outDir: "dist", // Ensure Vite builds to "dist" for Vercel
+  },
   server: {
-    historyApiFallback: true, // Ensures SPA routing works
+    historyApiFallback: true, // Ensure React Router works correctly
   },
 });
